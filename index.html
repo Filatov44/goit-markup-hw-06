@@ -433,11 +433,12 @@
               <div class="footer-online-inputs">
                 <label for="email"></label>
                 <input type="email" placeholder="E-mail" name="email" class="footer-online-input" />
-                <button type="submit" class="footer-btn-online">Подписаться
-						<svg class="footer-btn-icon" width="24" height="24">
-							<use href="./images/symbol-defs.svg#icon-icon-send"></use>
-						 </svg>
-					 </button>
+                <button type="submit" class="footer-btn-online">
+                  Подписаться
+                  <svg class="footer-btn-icon" width="24" height="24">
+                    <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+                  </svg>
+                </button>
               </div>
             </form>
           </div>
@@ -452,6 +453,59 @@
             <use href="./images/symbol-defs.svg#icon-modal-close-1"></use>
           </svg>
         </button>
+        <!------------ Modal title ------------->
+        <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+        <!------------- Modal form ---------------->
+        <form action="#" class="modal-form" name="modal_form">
+          <div class="modal-form-field">
+            <label for="user-name" class="modal-form-content">Имя</label>
+            <input
+              class="modal-form-input"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Сергей"
+            />
+            <svg class="modal-form-icon" width="18" height="18">
+              <use href="./images/symbol-defs.svg#icon-person-modal"></use>
+            </svg>
+          </div>
+          <div class="modal-form-field">
+            <label for="user-tel" class="modal-form-content">Телефон</label>
+            <input
+              class="modal-form-input"
+              type="tel"
+              name="user-tel"
+              id="user-tel"
+              placeholder="+38 066 111 11 11"
+            />
+            <svg class="modal-form-icon" width="18" height="18">
+              <use href="./images/symbol-defs.svg#icon-phone-modal"></use>
+            </svg>
+          </div>
+          <div class="modal-form-field">
+            <label for="user-email" class="modal-form-content">Почта</label>
+            <input
+              class="modal-form-input"
+              type="email"
+              name="user-email"
+              id="user-email"
+              placeholder="email@address.com"
+            />
+            <svg class="modal-form-icon" width="18" height="18">
+              <use href="./images/symbol-defs.svg#icon-email-modal"></use>
+            </svg>
+          </div>
+          <div class="modal-form-field">
+            <label for="user-form-comment" class="modal-form-content">Комментарий</label>
+            <textarea
+              class="modal-form-comment"
+              name="user-form-comment"
+              id="user-form-comment"
+              placeholder="Введите Ваш комментарий"
+            ></textarea>
+          </div>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
