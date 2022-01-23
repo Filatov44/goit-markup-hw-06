@@ -1041,6 +1041,7 @@ img {
 
 	.modal-policy-link {
 		color: var(--accent-color);
+		margin-left: 5px;
 	}
 	.modal-btn-submit {
 		display: flex;
